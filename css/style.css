@@ -132,7 +132,7 @@ li::marker{
   content: "♥";
 }
 
-.ddesign {
+.text {
   padding-left: 10px;
   color: rgb(158, 158, 158);
   font-size:16px;
@@ -196,4 +196,25 @@ h4 {
 
 img {
   width: 100%;
+}
+
+.gallery {
+  width: 300px;
+  border-style: solid;
+  border-color: rgb(158, 158, 158);
+  border-width: 4px;
+  border-radius: 12px;
+  margin-top: 10px;
+  margin-left: 20px;
+  
+}
+
+.galleryhor {
+  width: 600px;
+  border-style: solid;
+  border-color: rgb(158, 158, 158);
+  border-width: 4px;
+  border-radius: 12px;
+  margin-top: 10px;
+  margin-left: 20px;
 }
