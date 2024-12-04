@@ -1,6 +1,6 @@
 /* Universal Styles */
 html {
-  scroll-behavior:smooth;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -8,59 +8,59 @@ body {
   margin: 0px;
 }
 
-
-a:link { 
-  color: rgb(149, 173, 206); 
-  background-color: transparent; 
-  text-decoration: none; 
-} 
-a:visited { color: rgb(103, 126, 170); 
-  background-color: transparent; 
-  text-decoration: none; 
-} 
-a:hover { 
-  color: rgb(123, 101, 189); 
-  background-color: transparent; 
-  text-decoration: underline; 
-} 
-a:active { 
-  color: rgb(173, 116, 143); 
-  background-color: transparent; 
-  text-decoration: underline; 
-} 
-
+a:link {
+  color: rgb(149, 173, 206);
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: rgb(103, 126, 170);
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: rgb(123, 101, 189);
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: rgb(173, 116, 143);
+  background-color: transparent;
+  text-decoration: underline;
+}
 
 nav.navigation {
-    display: block;
-    unicode-bidi: isolate;
-    background-color: rgb(158, 158, 158);
-    margin: 0px;
-    box-sizing: border-box;
+  display: block;
+  unicode-bidi: isolate;
+  background-color: rgb(158, 158, 158);
+  margin: 0px;
+  box-sizing: border-box;
 }
 .navigation ul {
-    background-color: white;
-    opacity: 70%;
-    box-sizing: content-box;
-    font-variant: small-caps;
-    text-align: left;
-    margin: 0%;
-    padding: 20px 2.5%;
-    /* opacity: 75%; */
-    top: 0px;
-    left: 0px;
-    position: fixed;
-    width: 100%;
-    
-}
-ul {
-    display: block;
-    list-style-type: disc;
-
+  display: flex;
+  list-style: none;
+  background-color: white;
+  opacity: 70%;
+  box-sizing: content-box;
+  font-variant: small-caps;
+  text-align: left;
+  margin: 0;
+  padding: 20px 2.5%;
+  /* opacity: 75%; */
+  top: 0px;
+  left: 0px;
+  position: fixed;
+  width: 100%;
 }
 
-li {
-    display: list-item;
-    display: inline;
+.navigation ul a {
+  display: block;
+  padding: 4px;
+}
+
+.navigation ul a:hover {
+  text-decoration: none;
+ 
 }
 
 .photo1 {
@@ -71,10 +71,7 @@ li {
   border-radius: 12px;
   margin-top: 80px;
   margin-left: 20px;
-  
 }
-
-
 
 .patern {
   width: 730px;
@@ -84,22 +81,19 @@ li {
   border-radius: 12px;
 }
 
-
-
 .tvoru {
   padding-left: 10px;
   color: rgb(158, 158, 158);
-  font-size:72px;
+  font-size: 72px;
   text-align: left;
   font-family: "Dela Gothic One", sans-serif;
   margin: 0px;
   margin-left: 15px;
-
 }
 
 .sub {
   padding-left: 45px;
-  color:rgb(103, 103, 103);
+  color: rgb(103, 103, 103);
   font-size: 16px;
   text-align: left;
   font-family: Roboto, sans-serif;
@@ -108,11 +102,10 @@ li {
   margin-bottom: 0px;
 }
 
-
 .aboutme {
   width: 700px;
   padding-left: 45px;
-  color:rgb(158, 158, 158);
+  color: rgb(158, 158, 158);
   font-size: 14px;
   text-align: left;
   font-family: Roboto, sans-serif;
@@ -121,44 +114,43 @@ li {
 
 .list {
   padding-left: 45px;
-  color:rgb(158, 158, 158);
+  color: rgb(158, 158, 158);
   font-size: 14px;
   text-align: left;
   font-family: Roboto, sans-serif;
   margin-top: 5px;
 }
 
-li::marker{
+.list li::marker {
   content: "♥";
 }
 
 .text {
   padding-left: 10px;
   color: rgb(158, 158, 158);
-  font-size:16px;
+  font-size: 16px;
   text-align: left;
   font-family: Roboto, sans-serif;
   margin: 0px;
   margin-left: 20px;
-  
-
 }
 
 h5 {
   padding-left: 30px;
-  color:rgb(158, 158, 158);
+  color: rgb(158, 158, 158);
   font-size: 12px;
   text-align: left;
   font-family: Arial, Helvetica, sans-serif;
 }
 p {
- width: 700px;
+  width: 700px;
   padding-left: 45px;
-  color:rgb(158, 158, 158);
+  color: rgb(158, 158, 158);
   font-size: 14px;
   text-align: left;
   font-family: Roboto, sans-serif;
 }
+
 h3 {
   padding-left: 20px;
   color: rgb(158, 158, 158);
@@ -206,7 +198,6 @@ img {
   border-radius: 12px;
   margin-top: 10px;
   margin-left: 20px;
-  
 }
 
 .galleryhor {
