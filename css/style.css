@@ -34,7 +34,7 @@ a:active {
 }
 
 .
-.navigation {
+navigation {
   display: block;
   unicode-bidi: isolate;
   background-color: rgb(158, 158, 158);
@@ -261,4 +261,14 @@ img {
 img {
     overflow-clip-margin: content-box;
     overflow: clip;
+}
+
+.contact {
+  display: flex;
+  font-family: Space Grotesk;
+  justify-content: center;
+  gap: 60px;
+  font-size: 36px;
+  margin: 35px;
+
 }
