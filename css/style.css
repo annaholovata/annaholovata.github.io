@@ -70,11 +70,13 @@ navigation {
   display: block;
   padding: 4px;
   align-items: center;
+  overflow: visible;
 }
 
 .navigation ul a:hover {
   text-decoration: none;
   align-items: center;
+  overflow: visible;
  
 }
 
@@ -271,4 +273,21 @@ img {
   font-size: 36px;
   margin: 35px;
 
+}
+
+.dyvno .gallery-item {
+  display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.dyvno .gallery-item:hover {
+  display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
+  object-fit: cover;
+  cursor: pointer;
+  transform: scale(1.1);
 }
